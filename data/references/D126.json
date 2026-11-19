@@ -1,0 +1,659 @@
+{
+  "document_id": "D126",
+  "entities": [
+    {
+      "id": "ent_person_0001",
+      "source_id": "D126P1",
+      "type": "Person",
+      "canonical_name": "Alfonso",
+      "aliases": [
+        "Alfonso"
+      ]
+    },
+    {
+      "id": "ent_person_0002",
+      "source_id": "D126P131",
+      "type": "Person",
+      "canonical_name": "Alfonso Díaz de Trasona",
+      "aliases": [
+        "Alfonso Díaz de Trasona"
+      ]
+    },
+    {
+      "id": "ent_person_0003",
+      "source_id": "D126P136",
+      "type": "Person",
+      "canonical_name": "Menen Díaz",
+      "aliases": [
+        "Menen Díaz"
+      ]
+    },
+    {
+      "id": "ent_person_0004",
+      "source_id": "D126P170",
+      "type": "Person",
+      "canonical_name": "Alvar Fernández",
+      "aliases": [
+        "Alvar Fernández Mongie del Monesterio de San Vecenti de Oviedo",
+        "Alvar Fernández"
+      ]
+    },
+    {
+      "id": "ent_person_0005",
+      "source_id": "D126P177",
+      "type": "Person",
+      "canonical_name": "Diego Fernández de Linares",
+      "aliases": [
+        "Diego Fernández de Linares"
+      ]
+    },
+    {
+      "id": "ent_person_0006",
+      "source_id": "D126P21",
+      "type": "Person",
+      "canonical_name": "Fernán Alfonso",
+      "aliases": [
+        "Fernán Alfonso Mongie del Monesterio de San Vecenti de Oviedo",
+        "Fernán Alfonso"
+      ]
+    },
+    {
+      "id": "ent_person_0007",
+      "source_id": "D126P227",
+      "type": "Person",
+      "canonical_name": "Menén Fernández",
+      "aliases": [
+        "Menén Fernández Mongie del Monesterio de San Vecenti de Oviedo",
+        "Menén Fernández"
+      ]
+    },
+    {
+      "id": "ent_person_0008",
+      "source_id": "D126P233",
+      "type": "Person",
+      "canonical_name": "Nicolás Fernández",
+      "aliases": [
+        "Nicolás Fernández"
+      ]
+    },
+    {
+      "id": "ent_person_0009",
+      "source_id": "D126P256",
+      "type": "Person",
+      "canonical_name": "Orraca Ferrández",
+      "aliases": [
+        "Orraca Ferrández"
+      ]
+    },
+    {
+      "id": "ent_person_0010",
+      "source_id": "D126P320",
+      "type": "Person",
+      "canonical_name": "Suer Gonçález",
+      "aliases": [
+        "Suer Gonçález"
+      ]
+    },
+    {
+      "id": "ent_person_0011",
+      "source_id": "D126P5",
+      "type": "Person",
+      "canonical_name": "Bartolomé",
+      "aliases": [
+        "Bartolomé"
+      ]
+    },
+    {
+      "id": "ent_person_0012",
+      "source_id": "D126P645",
+      "type": "Person",
+      "canonical_name": "Iohan Rodríguez",
+      "aliases": [
+        "Iohan Rodríguez"
+      ]
+    },
+    {
+      "id": "ent_person_0013",
+      "source_id": "D126P697",
+      "type": "Person",
+      "canonical_name": "Diego Suárez",
+      "aliases": [
+        "Diego Suárez"
+      ]
+    },
+    {
+      "id": "ent_place_0014",
+      "source_id": "Borondes",
+      "type": "Place",
+      "canonical_name": "Borondes",
+      "aliases": [
+        "Borondes"
+      ]
+    },
+    {
+      "id": "ent_place_0015",
+      "source_id": "Oviedo",
+      "type": "Place",
+      "canonical_name": "Oviedo",
+      "aliases": [
+        "Oviedo"
+      ]
+    },
+    {
+      "id": "ent_place_0016",
+      "source_id": "Vega_de_Rodrigo_Abril",
+      "type": "Place",
+      "canonical_name": "Vega de Rodrigo Abril",
+      "aliases": [
+        "Vega de Rodrigo Abril"
+      ]
+    },
+    {
+      "id": "ent_place_0017",
+      "source_id": "ner:D126:132:154",
+      "type": "Place",
+      "canonical_name": "San Martino de Grullés",
+      "aliases": [
+        "San Martino de Grullés"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0018",
+      "source_id": "ner:D126:426:430",
+      "type": "Place",
+      "canonical_name": "Grado",
+      "aliases": [
+        "Grado"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0019",
+      "source_id": "ner:D126:849:856",
+      "type": "Place",
+      "canonical_name": "Trasona",
+      "aliases": [
+        "Trasona"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0020",
+      "source_id": "ner:D126:898:905",
+      "type": "Place",
+      "canonical_name": "Linares",
+      "aliases": [
+        "Linares"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0021",
+      "source_id": "ner:D126:973:984",
+      "type": "Place",
+      "canonical_name": "San Vecenti",
+      "aliases": [
+        "San Vecenti"
+      ],
+      "provenance": "ner"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact_00001",
+      "subject": "ent_person_0001",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alfonso",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00002",
+      "subject": "ent_person_0001",
+      "predicate": "position_held",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Rey",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00003",
+      "subject": "ent_person_0002",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alfonso",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00004",
+      "subject": "ent_person_0002",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Díaz de Trasona",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00005",
+      "subject": "ent_person_0003",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Menen",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00006",
+      "subject": "ent_person_0003",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Díaz",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00007",
+      "subject": "ent_person_0003",
+      "predicate": "has_father",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0005",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00008",
+      "subject": "ent_person_0004",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alvar",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00009",
+      "subject": "ent_person_0004",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernández",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00010",
+      "subject": "ent_person_0004",
+      "predicate": "occupation",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Mongie del Monesterio de San Vecenti de Oviedo",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00011",
+      "subject": "ent_person_0005",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Diego",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00012",
+      "subject": "ent_person_0005",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernández de Linares",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00013",
+      "subject": "ent_person_0005",
+      "predicate": "has_child",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0003",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00014",
+      "subject": "ent_person_0006",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernán",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00015",
+      "subject": "ent_person_0006",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alfonso",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00016",
+      "subject": "ent_person_0006",
+      "predicate": "occupation",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Mongie del Monesterio de San Vecenti de Oviedo",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00017",
+      "subject": "ent_person_0006",
+      "predicate": "occupation_location",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_place_0015",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00018",
+      "subject": "ent_person_0006",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0011",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00019",
+      "subject": "ent_person_0006",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0012",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00020",
+      "subject": "ent_person_0007",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Menén",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00021",
+      "subject": "ent_person_0007",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernández",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00022",
+      "subject": "ent_person_0007",
+      "predicate": "occupation",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Mongie del Monesterio de San Vecenti de Oviedo",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00023",
+      "subject": "ent_person_0008",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Nicolás",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00024",
+      "subject": "ent_person_0008",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernández",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00025",
+      "subject": "ent_person_0008",
+      "predicate": "position_held",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Notario póblico del rey en Oviedo",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00026",
+      "subject": "ent_person_0008",
+      "predicate": "position_jurisdiction",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_place_0015",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00027",
+      "subject": "ent_person_0009",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Orraca",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00028",
+      "subject": "ent_person_0009",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Ferrández",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00029",
+      "subject": "ent_person_0009",
+      "predicate": "has_child",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0013",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00030",
+      "subject": "ent_person_0010",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Suer",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00031",
+      "subject": "ent_person_0010",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Gonçález",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00032",
+      "subject": "ent_person_0010",
+      "predicate": "has_child",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0013",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00033",
+      "subject": "ent_person_0011",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Bartolomé",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00034",
+      "subject": "ent_person_0011",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0006",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00035",
+      "subject": "ent_person_0011",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0012",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00036",
+      "subject": "ent_person_0012",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Iohan",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00037",
+      "subject": "ent_person_0012",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Rodríguez",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00038",
+      "subject": "ent_person_0012",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0006",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00039",
+      "subject": "ent_person_0012",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0011",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00040",
+      "subject": "ent_person_0013",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Diego",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00041",
+      "subject": "ent_person_0013",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Suárez",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00042",
+      "subject": "ent_person_0013",
+      "predicate": "residence",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_place_0016",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00043",
+      "subject": "ent_person_0013",
+      "predicate": "has_father",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0010",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00044",
+      "subject": "ent_person_0013",
+      "predicate": "has_mother",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0009",
+      "provenance": "ttl"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_0001",
+      "source_id": "D126",
+      "type": "Purchase",
+      "attributes": {
+        "time": [
+          "1362-06-30"
+        ],
+        "price": [
+          {
+            "value": 8.0,
+            "currency": "Maravedí"
+          }
+        ]
+      },
+      "arguments": [
+        {
+          "role": "transfer_from",
+          "entity": "ent_person_0013"
+        },
+        {
+          "role": "transfer_to",
+          "entity": "ent_person_0006"
+        },
+        {
+          "role": "transfer_to",
+          "entity": "ent_person_0012"
+        },
+        {
+          "role": "transfer_to",
+          "entity": "ent_person_0011"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0002"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0003"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0004"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0007"
+        },
+        {
+          "role": "notary",
+          "entity": "ent_person_0008"
+        }
+      ],
+      "provenance": "ttl",
+      "subtype": "Sale"
+    }
+  ],
+  "warnings": []
+}

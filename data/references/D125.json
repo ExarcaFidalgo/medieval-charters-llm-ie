@@ -1,0 +1,608 @@
+{
+  "document_id": "D125",
+  "entities": [
+    {
+      "id": "ent_person_0001",
+      "source_id": "D125P1",
+      "type": "Person",
+      "canonical_name": "Alfonso",
+      "aliases": [
+        "Alfonso"
+      ]
+    },
+    {
+      "id": "ent_person_0002",
+      "source_id": "D125P154",
+      "type": "Person",
+      "canonical_name": "Alfonso Fernández de Oviedo",
+      "aliases": [
+        "Alfonso Fernández de Oviedo Oriz",
+        "Alfonso Fernández de Oviedo"
+      ]
+    },
+    {
+      "id": "ent_person_0003",
+      "source_id": "D125P218",
+      "type": "Person",
+      "canonical_name": "Martín Fernández de Çreyçedo",
+      "aliases": [
+        "Martín Fernández de Çreyçedo"
+      ]
+    },
+    {
+      "id": "ent_person_0004",
+      "source_id": "D125P255",
+      "type": "Person",
+      "canonical_name": "Teresa Fernández",
+      "aliases": [
+        "Teresa Fernández"
+      ]
+    },
+    {
+      "id": "ent_person_0005",
+      "source_id": "D125P266",
+      "type": "Person",
+      "canonical_name": "Alvar Garçía",
+      "aliases": [
+        "Alvar Garçía"
+      ]
+    },
+    {
+      "id": "ent_person_0006",
+      "source_id": "D125P480",
+      "type": "Person",
+      "canonical_name": "Alfonso Pérez",
+      "aliases": [
+        "Alfonso Pérez Capellán",
+        "Alfonso Pérez"
+      ]
+    },
+    {
+      "id": "ent_person_0007",
+      "source_id": "D125P482",
+      "type": "Person",
+      "canonical_name": "Alfonso Pérez de Paniçal",
+      "aliases": [
+        "Alfonso Pérez de Paniçal"
+      ]
+    },
+    {
+      "id": "ent_person_0008",
+      "source_id": "D125P564",
+      "type": "Person",
+      "canonical_name": "María Pérez de y de Borondes",
+      "aliases": [
+        "María Pérez de y de Borondes"
+      ]
+    },
+    {
+      "id": "ent_person_0009",
+      "source_id": "D125P570",
+      "type": "Person",
+      "canonical_name": "Martin Pérez de Castro",
+      "aliases": [
+        "Martin Pérez de Castro"
+      ]
+    },
+    {
+      "id": "ent_person_0010",
+      "source_id": "D125P685",
+      "type": "Person",
+      "canonical_name": "Alvar Suárez",
+      "aliases": [
+        "Alvar Suárez"
+      ]
+    },
+    {
+      "id": "ent_person_0011",
+      "source_id": "D125P711",
+      "type": "Person",
+      "canonical_name": "Gonçalo Suárez de Velandres",
+      "aliases": [
+        "Gonçalo Suárez de Velandres"
+      ]
+    },
+    {
+      "id": "ent_person_0012",
+      "source_id": "D125P727",
+      "type": "Person",
+      "canonical_name": "Pero Suárez de Belandres",
+      "aliases": [
+        "Pero Suárez de Belandres"
+      ]
+    },
+    {
+      "id": "ent_person_0013",
+      "source_id": "D125PB1",
+      "type": "Person",
+      "canonical_name": "Suero",
+      "aliases": [
+        "Suero"
+      ]
+    },
+    {
+      "id": "ent_place_0014",
+      "source_id": "Cennales_valle",
+      "type": "Place",
+      "canonical_name": "Valle de Çenales",
+      "aliases": [
+        "Valle de Çenales",
+        "Cennales valle"
+      ]
+    },
+    {
+      "id": "ent_place_0015",
+      "source_id": "Grado",
+      "type": "Place",
+      "canonical_name": "Grado",
+      "aliases": [
+        "Grado"
+      ]
+    },
+    {
+      "id": "ent_place_0016",
+      "source_id": "Las_Pevidas",
+      "type": "Place",
+      "canonical_name": "Las Pevidas",
+      "aliases": [
+        "Las Pevidas"
+      ]
+    },
+    {
+      "id": "ent_place_0017",
+      "source_id": "Ranezes",
+      "type": "Place",
+      "canonical_name": "Ranezes",
+      "aliases": [
+        "Ranezes"
+      ]
+    },
+    {
+      "id": "ent_place_0018",
+      "source_id": "ner:D125:89:98",
+      "type": "Place",
+      "canonical_name": "Belandres",
+      "aliases": [
+        "Belandres"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0019",
+      "source_id": "ner:D125:137:143",
+      "type": "Place",
+      "canonical_name": "Oviedo",
+      "aliases": [
+        "Oviedo"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0020",
+      "source_id": "ner:D125:173:180",
+      "type": "Place",
+      "canonical_name": "Borondes",
+      "aliases": [
+        "Borondes"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0021",
+      "source_id": "ner:D125:198:202",
+      "type": "Place",
+      "canonical_name": "Heros",
+      "aliases": [
+        "Heros"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_person_0022",
+      "source_id": "ner:D125:448:464",
+      "type": "Person",
+      "canonical_name": "Taresa Fernández",
+      "aliases": [
+        "Taresa Fernández"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0023",
+      "source_id": "ner:D125:653:659",
+      "type": "Place",
+      "canonical_name": "Castro",
+      "aliases": [
+        "Castro"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0024",
+      "source_id": "ner:D125:714:720",
+      "type": "Place",
+      "canonical_name": "Paniçal",
+      "aliases": [
+        "Paniçal"
+      ],
+      "provenance": "ner"
+    },
+    {
+      "id": "ent_place_0025",
+      "source_id": "ner:D125:743:751",
+      "type": "Place",
+      "canonical_name": "Çreyçedo",
+      "aliases": [
+        "Çreyçedo"
+      ],
+      "provenance": "ner"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact_00001",
+      "subject": "ent_person_0001",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alfonso",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00002",
+      "subject": "ent_person_0001",
+      "predicate": "position_held",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Rey",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00003",
+      "subject": "ent_person_0002",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alfonso",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00004",
+      "subject": "ent_person_0002",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernández de Oviedo",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00005",
+      "subject": "ent_person_0002",
+      "predicate": "occupation",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Oriz",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00006",
+      "subject": "ent_person_0003",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Martín",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00007",
+      "subject": "ent_person_0003",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernández de Çreyçedo",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00008",
+      "subject": "ent_person_0004",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Teresa",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00009",
+      "subject": "ent_person_0004",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Fernández",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00010",
+      "subject": "ent_person_0005",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alvar",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00011",
+      "subject": "ent_person_0005",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Garçía",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00012",
+      "subject": "ent_person_0005",
+      "predicate": "position_held",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Notario póblico del rey en la pobla de Grado",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00013",
+      "subject": "ent_person_0005",
+      "predicate": "position_jurisdiction",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_place_0015",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00014",
+      "subject": "ent_person_0006",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alfonso",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00015",
+      "subject": "ent_person_0006",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Pérez",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00016",
+      "subject": "ent_person_0006",
+      "predicate": "occupation",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Capellán",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00017",
+      "subject": "ent_person_0006",
+      "predicate": "occupation_location",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_place_0017",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00018",
+      "subject": "ent_person_0007",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alfonso",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00019",
+      "subject": "ent_person_0007",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Pérez de Paniçal",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00020",
+      "subject": "ent_person_0008",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "María",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00021",
+      "subject": "ent_person_0008",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Pérez de y de Borondes",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00022",
+      "subject": "ent_person_0009",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Martin",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00023",
+      "subject": "ent_person_0009",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Pérez de Castro",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00024",
+      "subject": "ent_person_0010",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Alvar",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00025",
+      "subject": "ent_person_0010",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Suárez",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00026",
+      "subject": "ent_person_0010",
+      "predicate": "has_child",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0013",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00027",
+      "subject": "ent_person_0011",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Gonçalo",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00028",
+      "subject": "ent_person_0011",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Suárez de Velandres",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00029",
+      "subject": "ent_person_0011",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0012",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00030",
+      "subject": "ent_person_0012",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Pero",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00031",
+      "subject": "ent_person_0012",
+      "predicate": "family_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Suárez de Belandres",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00032",
+      "subject": "ent_person_0012",
+      "predicate": "has_sibling",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0011",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00033",
+      "subject": "ent_person_0013",
+      "predicate": "given_name",
+      "fact_type": "attribute",
+      "object_type": "literal",
+      "object": "Suero",
+      "provenance": "ttl"
+    },
+    {
+      "id": "fact_00034",
+      "subject": "ent_person_0013",
+      "predicate": "has_father",
+      "fact_type": "relation",
+      "object_type": "entity",
+      "object": "ent_person_0010",
+      "provenance": "ttl"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_0001",
+      "source_id": "D125",
+      "type": "Purchase",
+      "attributes": {
+        "time": [
+          "1362-03-19"
+        ],
+        "price": [
+          {
+            "value": 24.0,
+            "currency": "Maravedí"
+          }
+        ]
+      },
+      "arguments": [
+        {
+          "role": "transfer_from",
+          "entity": "ent_person_0011"
+        },
+        {
+          "role": "transfer_from",
+          "entity": "ent_person_0012"
+        },
+        {
+          "role": "transfer_to",
+          "entity": "ent_person_0002"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0013"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0009"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0006"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0007"
+        },
+        {
+          "role": "witness",
+          "entity": "ent_person_0003"
+        },
+        {
+          "role": "notary",
+          "entity": "ent_person_0005"
+        }
+      ],
+      "provenance": "ttl",
+      "subtype": "Sale"
+    }
+  ],
+  "warnings": []
+}
