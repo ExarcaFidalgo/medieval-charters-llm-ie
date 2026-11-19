@@ -1,0 +1,9 @@
+openai
+google-genai
+mistralai
+python-dotenv
+jsonschema
+pandas
+openpyxl
+rdflib
+tqdm
