@@ -21,7 +21,7 @@ repository **without running any model inference**.
 ├── .env.example                 # template for API keys
 ├── notebooks/
 │   ├── 01_benchmark_construction.ipynb   # RDF/Turtle (Attested Dataset) -> task-specific JSON references
-│   ├── 02_split_generation.ipynb         # deterministic demo / dev / test partition
+│   ├── 02_splitter.ipynb         # deterministic demo / dev / test partition
 │   └── 03_llm_evaluation.ipynb           # prompting, inference, parsing, matching, scoring, tables
 ├── data/
 │   ├── corpus/                  # D1.txt … D128.txt — charter transcriptions (model input)
@@ -42,7 +42,6 @@ repository **without running any model inference**.
 └── outputs/
     └── llm_eval_outputs.zip     # raw prompts, responses, parsed predictions, per-document metrics
 ```
-Raw model outputs (≈39k files, ≈78 MB compressed) are provided as a single archive, outputs/llm_eval_outputs.zip. Its layout is described below.
 ---
 
 ## Data
@@ -63,7 +62,7 @@ Raw model outputs (≈39k files, ≈78 MB compressed) are provided as a single a
   - *unrestricted* (`all` in file names): includes them.
 - **Output schemas.** The JSON schemas sent to the models are defined in
   `notebooks/03_llm_evaluation.ipynb` (section *JSON schemas per task*).
-- **License.**
+- **License.** Code is released under the MIT License (see LICENSE). Corpus and annotations are derived from MCKG and remain subject to its license.
 
 ## Data partition
 
@@ -101,8 +100,7 @@ Transient API errors (rate limits, 5xx, timeouts) are retried up to 6 times with
 | Few-shot | `fewshot` | 3 (`test`, `test_2`, `test_3`) |
 
 The paper reports the **first run** (`test`) unless stated otherwise; `test_2` and `test_3` are used for
-the run-to-run stability analysis (Section 5.4). `dev_tune` folders contain development runs and are not
-used for any reported result.
+the run-to-run stability analysis (Section 5.4).
 
 ## Evaluation
 
@@ -164,13 +162,21 @@ or a response that could not be parsed, including truncation at the output-token
 ### Recompute metrics and tables (no API keys needed)
 
 1. Install dependencies: `pip install -r requirements.txt`.
-2. Download and unzip `llm_eval_outputs.zip` into the repository root.
-3. In `notebooks/03_llm_evaluation.ipynb`, set `BASE_DIR` to the repository root and run the
-   setup sections (configuration through *Evaluation by task*, and *Summary*).
-4. In *Summary of test execution*, set `task_name`, `backend_name`, `prompt_variant`,
-   `entity_extraction_mode` (entities only) and, for repeated runs, `rerun = True` with
-   `rerun_number` 2 or 3. Running the section regenerates the corresponding files in
-   `paper_tables/` from the saved per-document outputs.
+2. Unzip `outputs/llm_eval_outputs.zip` in the repository root. This creates `llm_eval_outputs/`,
+   which is the output directory expected by the notebook (`OUT_DIR`).
+3. Open `notebooks/03_llm_evaluation.ipynb` and run all cells from the beginning up to and including
+   the *Summary* section. These cells only define configuration, helpers, and evaluation functions;
+   they make no API calls.
+4. Skip *Dev_tune execution* and *Test execution* (these call the model APIs) and go to
+   *Summary of test execution*. Set:
+   - `task_name`: `entityonly`, `factsonly`, or `eventsonly`;
+   - `backend_name`: `gpt54nano`, `llama17`, `gemini_native`, or `mistrallarge`;
+   - `prompt_variant`: `baseline`, `oneshot`, or `fewshot`;
+   - `entity_extraction_mode` (entities only): `annotated` (restricted) or `all` (unrestricted);
+   - `rerun = False` for the first run, or `rerun = True` with `rerun_number = 2` or `3`
+     for the repeated runs.
+5. Run the next cell. It recomputes the metrics from the saved per-document outputs and writes the
+   tables to `llm_eval_outputs/paper_tables/`, where they can be compared with `results/paper_tables/`.
 
 ### Re-run inference
 
