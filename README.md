@@ -72,7 +72,7 @@ repository **without running any model inference**.
 | `dev_tune` | 10 | Prompt and output-convention development |
 | `test` | 109 | Final evaluation |
 
-The partition is deterministic and non-random (`notebooks/02_split_generation.ipynb`). Documents with
+The partition is deterministic and non-random (`notebooks/02_splitter.ipynb`). Documents with
 rare event structures are assigned to the test set; development and demonstration documents are drawn
 from Purchase/Sale documents stratified by a simple complexity score.
 
@@ -158,6 +158,10 @@ or a response that could not be parsed, including truncation at the output-token
 (`finish_reason = "length"`).
 
 ## Reproducing the results
+
+All notebooks use `BASE_DIR = Path("..")`, so they must be run **from the `notebooks/` directory**
+(the default when a notebook is opened from that folder in Jupyter or VS Code). All paths are
+resolved relative to the repository root.
 
 ### Recompute metrics and tables (no API keys needed)
 
